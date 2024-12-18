@@ -46,12 +46,15 @@
     "vercel:yolo": "yarn workspace @se-2/nextjs vercel:yolo",
     "verify": "yarn hardhat:verify"
   },
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@4.5.3",
   "devDependencies": {
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10"
   },
   "engines": {
     "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "ethers": "5.1.3"
   }
 }
